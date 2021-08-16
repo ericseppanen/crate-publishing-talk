@@ -11,6 +11,9 @@ style: |
     color: inherit;
     background-color: inherit;
   }
+  code.language-rust {
+    color: #ddd;
+  }
   code.language-text, code.language-toml {
     font-weight: 700;
     color: #ddd;
