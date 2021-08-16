@@ -46,6 +46,18 @@ There are a number of fields that should be added to `Cargo.toml` for published 
 
 See the [Cargo Book][cargo_manifest] for more details.
 
+---
+
+## Libraries & Binaries
+
+Published crates are usually libraries, but they can be used to distribute binaries as well.
+
+Example:
+```text
+$ cargo install ripgrep
+```
+
+*Note: docs.rs doesn't host documentation for binary crates.*
 
 ---
 
