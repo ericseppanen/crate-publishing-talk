@@ -272,9 +272,9 @@ MIT OR Unlicense (1): memchr
 
 ## Optional crate features
 
-Crate features must only be additive (adding modules, functions, types).
+Crate features must only be additive (adding modules, functions, types, traits...).
 
-They should not e.g. change the number of parameters to a function.
+They should not be used for other reasons, e.g. changing the number of parameters to a function, or modifying the code behavior.
 
 If you have optional features, run tests with different feature sets enabled.
 
