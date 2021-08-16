@@ -170,6 +170,15 @@ Many crates require a fairly recent Rust build (~1 year old).
 
 ---
 
+## Authentication
+
+- Log in to crates.io; get at API key.
+- Use `cargo login` to save that API key locally.
+- `cargo publish` uses that key to publish crates to crates.io.
+- `cargo owner` to add/remove crate owners.
+
+---
+
 ## Publishing a crate release
 
 Be careful! Once published, you can't un-publish a release.
