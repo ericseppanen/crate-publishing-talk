@@ -66,12 +66,22 @@ $ cargo install ripgrep
 All crates published to crates.io will automatically get docs hosted on docs.rs.
 
 Documentation should include:
-- Top-level module docs (the docs.rs "front page")
+- Top-level docs in `lib.rs`
 - A `README.md` file (usually a copy of the top-level docs).
-- Documentation on every public type, function, trait, etc.
-- Lots of working examples (aka "doc-tests")
+- Documentation for every public type, function, trait, etc.
+- Module docs can also have detailed explanations.
 
-Use `#![warn(missing_docs)]`
+---
+
+## Documentation: best practices
+
+- Use `#![warn(missing_docs)]`
+- Add examples to all documentation (doc-tests).
+- Document the reasons an error may be returned.
+- Document any panics.
+- If any `unsafe` functions are public, document the invariants that are expected.
+
+See the [Rust Book][book_documentation] for details.
 
 --- 
 
@@ -254,6 +264,7 @@ If you have optional features, run tests with different feature sets enabled.
 
 [doctests]: https://doc.rust-lang.org/rustdoc/documentation-tests.html
 
+[book_documentation]: https://doc.rust-lang.org/book/ch14-02-publishing-to-crates-io.html?making-useful-documentation-comments
 
 [`cargo readme`]: https://github.com/livioribeiro/cargo-readme
 
