@@ -222,6 +222,19 @@ It does not remove the release data, and any builds that are already using that 
 
 ---
 
+## Names and naming tricks
+
+Top-level names (functions, types, traits) are very convenient for users, but not the most natural way to write & maintain code.
+
+If you re-export something from an inner (private?) module, you can make the docs hide the fact that it's re-exported:
+
+```rust
+#[doc(inline)]
+pub use submodule::Foo;
+```
+
+---
+
 ## Useful attributes
 
 ```rust
