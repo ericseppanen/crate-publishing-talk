@@ -24,7 +24,15 @@ style: |
 2021/08
 Eric Seppanen
 
---- 
+---
+
+## Crate names
+
+The crates.io / Cargo ecosystem has a flat namespace.
+
+- First one to claim a name owns it!
+
+---
 
 ## Cargo.toml metadata
 
