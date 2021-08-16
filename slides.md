@@ -280,6 +280,12 @@ If you have optional features, run tests with different feature sets enabled.
 
 ---
 
+<!-- _class: lead -->
+
+# End
+
+
+
 [cargo_semver]: https://doc.rust-lang.org/cargo/reference/semver.html
 
 [cargo_manifest]: (https://doc.rust-lang.org/cargo/reference/manifest.html)
