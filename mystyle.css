@@ -25,3 +25,6 @@ section::after {
     font-size: 18pt;
     color: #bbb;
 }
+footer {
+    text-align: right;
+}

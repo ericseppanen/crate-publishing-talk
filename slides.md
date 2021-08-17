@@ -5,6 +5,7 @@ marp: true
 <!--
 theme: mystyle
 _class: lead
+_footer: 'https://codeandbitters.com/slides/crate-publishing.html'
 -->
 
 # Publishing a Rust crate
