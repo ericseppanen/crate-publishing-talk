@@ -1,0 +1,27 @@
+/* @theme mystyle */
+
+@import 'gaia';
+
+section {
+    background-color: #fff8e1;
+}
+h1, h2 {
+    text-align: center;
+}
+code {
+    font-weight: 700;
+    color: inherit;
+    background-color: inherit;
+}
+code.language-rust {
+    color: #ddd;
+}
+code.language-text, code.language-toml {
+    font-weight: 700;
+    color: #ddd;
+}
+/* Styling page number */
+section::after {
+    font-size: 18pt;
+    color: #bbb;
+}

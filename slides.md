@@ -3,21 +3,8 @@ marp: true
 ---
 
 <!--
-theme: gaia
+theme: mystyle
 _class: lead
-style: |
-  code {
-    font-weight: 700;
-    color: inherit;
-    background-color: inherit;
-  }
-  code.language-rust {
-    color: #ddd;
-  }
-  code.language-text, code.language-toml {
-    font-weight: 700;
-    color: #ddd;
-  }
 -->
 
 # Publishing a Rust crate
