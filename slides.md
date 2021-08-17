@@ -13,6 +13,8 @@ Eric Seppanen
 
 ---
 
+<!-- paginate: true -->
+
 ## Crate names
 
 The crates.io / Cargo ecosystem has a flat namespace.
